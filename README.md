@@ -22,6 +22,24 @@ Imagine that you are writing an internal admin tool. Please complete the followi
 
 ## Usage
 
+### Step 1. Clone repository
+
+`$ git clone https://github.com/ChristianLapinig/true-accord-assessment.git`
+
+### Step 2. Install dependences
+
+```
+$ cd true-accord-assessment
+$ yarn install
+```
+
+### Step 3. Run Script & Tests
+
+```
+$ yarn start
+$ yarn test
+```
+
 ## Thought Process
 
 ### Problem 1
@@ -79,4 +97,6 @@ Imagine that you are writing an internal admin tool. Please complete the followi
 
 2. Node.js to run the script.
 
-3. Use the `axios` package to make HTTP API calls.
+3. `axios` package to make HTTP API calls.
+
+4. `mocha` and `chai` to run test suite.
