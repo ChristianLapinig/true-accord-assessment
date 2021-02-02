@@ -1,0 +1,27 @@
+{
+  "name": "true-accord-challenge",
+  "version": "1.0.0",
+  "description": "TrueAccord take home challenge script.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register src/__tests__/*.test.ts"
+  },
+  "author": "Christian Lapinig",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "eslint": "^7.19.0",
+    "global": "^4.4.0",
+    "moment": "^2.29.1",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.22",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.3"
+  }
+}
